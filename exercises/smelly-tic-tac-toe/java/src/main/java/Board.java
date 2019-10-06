@@ -16,7 +16,7 @@ public class Board {
         }
     }
 
-    public Tile TileAt(int x, int y) {
+    public Tile tileAt(int x, int y) {
         for (Tile t : plays) {
             if (t.x == x && t.y == y) {
                 return t;
@@ -25,12 +25,12 @@ public class Board {
         return null;
     }
 
-    public void AddTileAt(char symbol, int x, int y) {
+    public void addTileAt(char symbol, int x, int y) {
         Tile newTile = new Tile();
         newTile.x = x;
         newTile.y = y;
         newTile.symbol = symbol;
 
-        TileAt(x, y).symbol = symbol;
+        tileAt(x, y).symbol = symbol;
     }
 }
