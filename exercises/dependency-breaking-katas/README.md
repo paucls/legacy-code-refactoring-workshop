@@ -26,11 +26,6 @@ Changing code without test is risky, so we want to
 * Replace Global Reference With Getter
 * Extract And Override Factory Method
 
-Planned
-
-* Extract Interface
-* Adapt Parameter
-
 ### Task
 
 Each task presents you with a class and some collaborators.
@@ -38,6 +33,9 @@ Each task presents you with a class and some collaborators.
 * Bring this class under test. Make sure to cover all paths in the core logic.
 * There is an existing test class with a first test case which might or might not work.
 * You cannot change collaborators because they are used by other teams as well.
+
+### Source
+https://github.com/codecop/dependency-breaking-katas
 
 ### License
 
