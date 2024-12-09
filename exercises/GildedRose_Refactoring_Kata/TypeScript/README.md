@@ -15,20 +15,15 @@ npm install
 There are two unit test frameworks to choose from, Jest and Mocha.
 
 ```sh
-npm run test:jest
+npm run test
 ```
 
 To run all tests in watch mode
 
 ```sh
-npm run test:jest:watch
+npm run test:watch
 ```
 
-Mocha
-
-```sh
-npm run test:mocha
-```
 
 
 ## Run the TextTest fixture from the Command-Line
