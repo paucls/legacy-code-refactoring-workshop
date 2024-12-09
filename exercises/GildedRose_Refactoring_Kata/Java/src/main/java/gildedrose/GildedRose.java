@@ -59,4 +59,15 @@ class GildedRose {
             }
         }
     }
+
+    @Override
+    public String toString() {
+        StringBuilder text = new StringBuilder();
+
+        for (Item item : items) {
+            text.append(item.toString()).append("\n");
+        }
+
+        return text.toString();
+    }
 }
